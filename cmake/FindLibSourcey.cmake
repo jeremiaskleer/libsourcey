@@ -100,6 +100,7 @@ if (NOT LibSourcey_FOUND)
   # Include dependency headers
   list(APPEND LibSourcey_INCLUDE_DIRS
     ${LibSourcey_DIR}/share/libsourcey/vendor/include
+    ${LibSourcey_DIR}/vendor/include
     ${LibSourcey_DIR}/vendor/zlib
     ${LibSourcey_DIR}/vendor/zlib
     ${LibSourcey_DIR}/vendor/minizip
